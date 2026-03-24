@@ -1,5 +1,4 @@
 # DRAFT
-TEST SIMONA
 
 This README is a draft and subject to change.
 
