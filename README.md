@@ -23,20 +23,20 @@ We are always looking for more contributions! If you want to contribute clone th
 For integrations with the Tobii Pro SDK please see the official documentation for further help [Tobii Pro SDK Documentation](https://developer.tobiipro.com/index.html)
 
 ## Experiments & Data Collection
-* [TittaLSL](github.com/dcnieho/TittaLSL) - Toolbox for creating networked multi-participant eye-tracking experiments using Tobii eye trackers via LSL (Lab Streaming Layer). Achieves ~3 ms end-to-end latency.
-* [glassesTools](github.com/dcnieho/glassesTools) - Dependency for several dcnieho tools; not standalone
-* [PyGaze](github.com/esdalmaijer/PyGaze) - Open-source toolbox for eye tracking in Python
-* [TobiiGlassesPySuite](github.com/ddetommaso/TobiiGlassesPySuite) - Platform-independent suite for controlling Tobii Pro Glasses 2 and managing recordings beyond what the manufacturer's software offers.
+* [TittaLSL](https://github.com/dcnieho/TittaLSL) - Toolbox for creating networked multi-participant eye-tracking experiments using Tobii eye trackers via LSL (Lab Streaming Layer). Achieves ~3 ms end-to-end latency.
+* [glassesTools](https://github.com/dcnieho/glassesTools) - Dependency for several dcnieho tools; not standalone
+* [PyGaze](https://github.com/esdalmaijer/PyGaze) - Open-source toolbox for eye tracking in Python
+* [TobiiGlassesPySuite](https://github.com/ddetommaso/TobiiGlassesPySuite) - Platform-independent suite for controlling Tobii Pro Glasses 2 and managing recordings beyond what the manufacturer's software offers.
 * [Titta](MATLAB/PsychToolbox) - MATLAB counterpart to the Python Titta. Full Tobii Pro SDK integration via PsychToolbox for experiment control and data collection.
 
 ## Analysis & Pipelines ⭐ (core)
-* [GlassesViewer](github.com/dcnieho/GlassesViewer) - MATLAB utility for viewing and analyzing data from Tobii Pro Glasses 2 and 3 directly from SD card. Integrates with GazeCode for manual gaze mapping.
-* [scanpath](github.com/tmalsburg/scanpath) - R package for computing scanpath similarity between participants using the MultiMatch algorithm.
-* [TP3Py](github.com/smilies-lab/TP3Py) - Modular streaming pipeline for collection and real-time analysis of eye/head tracking data using Tobii Pro Glasses 3.
+* [GlassesViewer](https://github.com/dcnieho/GlassesViewer) - MATLAB utility for viewing and analyzing data from Tobii Pro Glasses 2 and 3 directly from SD card. Integrates with GazeCode for manual gaze mapping.
+* [scanpath](https://github.com/tmalsburg/scanpath) - R package for computing scanpath similarity between participants using the MultiMatch algorithm.
+* [TP3Py](https://github.com/smilies-lab/TP3Py) - Modular streaming pipeline for collection and real-time analysis of eye/head tracking data using Tobii Pro Glasses 3.
 ## Gaze Mapping & AOIs
-* [EyeLiveMetrics](github.com/Leibniz-HBI/EyeLiveMetrics) - Browser plugin for real-time mapping of gaze to webpage text. Computes fixation, saccade, and reading metrics live without post-hoc AOI annotation.
+* [EyeLiveMetrics](https://github.com/Leibniz-HBI/EyeLiveMetrics) - Browser plugin for real-time mapping of gaze to webpage text. Computes fixation, saccade, and reading metrics live without post-hoc AOI annotation.
 ## Metrics & Event Detection
 ## Pupillometry & Cognitive metrics
 ## Visualization
 ## Data Quality
-* [GlassesValidator](github.com/dcnieho/glassesValidator) - Automated tool for determining accuracy and precision (data quality) of wearable eye tracker recordings using a validation poster.
+* [GlassesValidator](https://github.com/dcnieho/glassesValidator) - Automated tool for determining accuracy and precision (data quality) of wearable eye tracker recordings using a validation poster.
