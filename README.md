@@ -1,4 +1,4 @@
-# Tobii Pro Research Tools Catalogue
+# Tobii Research Tools Catalogue
 
 A curated catalogue of peer-reviewed open-source and third-party tools, scripts, and software packages compatible with Tobii Pro research-grade eye trackers.
 
