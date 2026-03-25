@@ -59,7 +59,7 @@ This repository helps researchers quickly find tools across the eye-tracking wor
 | [glassesTools](https://github.com/dcnieho/glassesTools) | 👓 Data processing | Core backend for processing wearable eye-tracking recordings. |
 | [Mobile Gaze Mapping](https://github.com/jeffmacinnes/mobileGazeMapping) | 👓 Gaze mapping | Maps wearable gaze onto fixed stimuli using homography. |
 | [TobiiGlassesPySuite](https://github.com/ddetommaso/TobiiGlassesPySuite) | 👓 Device control | Controls Tobii Glasses 2 and manages recordings. |
-| [TP3Py](https://github.com/smilies-lab/TP3Py) | 👓 Streaming pipeline | Real-time streaming and processing for Glasses 3 data. |
+| [TP3Py](https://github.com/SUNYOpt/TP3Py) | 👓 Streaming pipeline | Real-time streaming and processing for Glasses 3 data. |
 
 ---
 
