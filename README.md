@@ -43,7 +43,7 @@ This repository helps researchers quickly find tools across the eye-tracking wor
 | [Titta (Python)](https://github.com/marcus-nystrom/Titta) | 🔀 Experiment control | PsychoPy-integrated toolbox for Tobii experiment control and data collection. |
 | [Titta (MATLAB)](https://github.com/dcnieho/Titta) | 🔀 Experiment control | PsychToolbox-based MATLAB integration for Tobii experiments. |
 | [PyGaze](https://github.com/esdalmaijer/PyGaze) | 🖥️ Experiment control | Cross-platform library for building eye-tracking experiments. |
-| [TittaLSL](https://github.com/dcnieho/TittaLSL) | 🔀 Multimodal experiments | Enables multi-participant experiments via LSL with low latency. |
+| [TittaLSL](https://github.com/dcnieho/Titta/tree/master/LSL_streamer) | 🔀 Multimodal experiments | Enables multi-participant experiments via LSL with low latency. |
 | [Opticka](https://github.com/iandol/opticka) | 🖥️ Experiment control | MATLAB toolbox for primate experiments using Tobii via Titta. |
 | [LabManager](https://github.com/dcnieho/labManager) | 🖥️ Lab orchestration | Manages multiple lab machines and launches experimental tasks. |
 
@@ -55,7 +55,7 @@ This repository helps researchers quickly find tools across the eye-tracking wor
 
 | Tool | Use Case | Description |
 |------|----------|-------------|
-| [Tobii Pro SDK](https://https://developer.tobiipro.com/) | 🔀 Data streaming | Official SDK for accessing Tobii Pro data streams and device control. |
+| [Tobii Pro SDK](https://developer.tobiipro.com/) | 🔀 Data streaming | Official SDK for accessing Tobii Pro data streams and device control. |
 | [glassesTools](https://github.com/dcnieho/glassesTools) | 👓 Data processing | Core backend for processing wearable eye-tracking recordings. |
 | [Mobile Gaze Mapping](https://github.com/jeffmacinnes/mobileGazeMapping) | 👓 Gaze mapping | Maps wearable gaze onto fixed stimuli using homography. |
 | [TobiiGlassesPySuite](https://github.com/ddetommaso/TobiiGlassesPySuite) | 👓 Device control | Controls Tobii Glasses 2 and manages recordings. |
