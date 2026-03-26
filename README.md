@@ -1,6 +1,6 @@
-# Tobii Research Tools Catalogue
+# Tobii Pro Research Tools Catalogue
 
-A curated catalogue of peer-reviewed open-source and third-party tools, scripts, and software packages compatible with Tobii Pro research-grade eye trackers.
+A curated catalogue of peer-reviewed open-source and third-party tools, scripts, and software packages compatible with Tobii Pro research-grade eye trackers and software.
 
 This repository helps researchers quickly find tools across the eye-tracking workflow — from experiment design and data collection to analysis and multimodal integration.
 
@@ -10,8 +10,12 @@ This repository helps researchers quickly find tools across the eye-tracking wor
 
 - Browse by **workflow stage** below to quickly find relevant tools.
 - Tables in this README are intentionally **compact for readability**.
-- The **full structured dataset** (all fields, notes, and metadata) is available in:
+- The **structured dataset** (comprehensive but not exhaustive; contributions welcome) is available in:
   - `data/catalogue.csv`
+
+💡 Tip: Use Ctrl+Click (Windows) or Cmd+Click (Mac) to open links in a new tab.
+
+📐 Schema and contribution rules: `docs/schema.md`
 
 ---
 
@@ -134,11 +138,14 @@ This repository helps researchers quickly find tools across the eye-tracking wor
 
 ## Contributing
 
-Please see CONTRIBUTING.md for guidelines on how to add or update entries.
+Contributions are welcome.
+
+👉 Please **update ****`data/catalogue.csv`**** first** following the schema before proposing changes to the README.
+
+See `CONTRIBUTING.md` for full guidelines.
 
 ---
 
 ## Disclaimer
 
 This is a community-maintained catalogue. Inclusion does not imply endorsement. Users should verify compatibility with their specific Tobii Pro device, SDK version, and experimental setup.
-
