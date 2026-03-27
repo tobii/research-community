@@ -1,5 +1,9 @@
 # Tobii Pro Research Tools Catalogue
 
+
+![Tobii image](https://a.storyblok.com/f/290827487058644/e5c68b989f/tobii-annual-research-report-webinar.jpg)
+
+
 A curated catalogue of peer-reviewed open-source and third-party tools, scripts, and software packages compatible with Tobii Pro research-grade eye trackers and software.
 
 This repository helps researchers quickly find tools across the eye-tracking workflow — from experiment design and data collection to analysis and multimodal integration.
@@ -107,7 +111,7 @@ This repository helps researchers quickly find tools across the eye-tracking wor
 | [tobiilsl](https://github.com/baekgaard/tobiilsl)                      | 🔀 Python-to-LSL bridge     | Lightweight Python interface that pushes Tobii Pro SDK gaze streams into LSL.                                                   |
 | [TalkToProLab (within Titta)](https://github.com/dcnieho/Titta)        | 🖥️ Pro Lab integration     | External Presenter bridge for running experiments outside Tobii Pro Lab while keeping Pro Lab recording and analysis workflows. |
 
----
+---gi
 
 ## Wearable & Egocentric Workflows
 
