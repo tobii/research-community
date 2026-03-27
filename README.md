@@ -1,6 +1,6 @@
 # Tobii Pro Research Tools Catalogue
 
-Tobii image
+![Tobii image](https://a.storyblok.com/f/290827487058644/e5c68b989f/tobii-annual-research-report-webinar.jpg)
 
 A curated catalogue of peer-reviewed open-source and third-party tools, scripts, and software packages compatible with Tobii Pro research-grade eye trackers and software.
 
