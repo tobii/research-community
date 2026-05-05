@@ -1,61 +1,118 @@
 # Contributing Guide
 
-Thank you for your interest in contributing to the Tobii Research Tools Catalogue.
+Thank you for your interest in contributing to the **Tobii Research Tools Catalogue** 🙌
 
-This repository is a structured catalogue of tools compatible with Tobii Pro research-grade eye trackers and software. Contributions are welcome, but must follow the schema and workflow to ensure consistency and usability.
-
----
-
-## How to Contribute
-
-Please follow this process:
-
-1. Add or update the tool in `data/catalogue.csv`
-2. Follow the schema defined in `docs/schema.md`
-3. Submit a Pull Request
-
-**Important:**
-
-- Do NOT edit the README directly unless explicitly requested
-- The README is curated by maintainers
-- The CSV is the source of truth
+This repository is a structured catalogue of tools compatible with Tobii Pro research-grade eye trackers. To keep it consistent and useful, please follow the guidelines below.
 
 ---
 
-## Adding a New Tool
+## 🚀 Quick Start
 
-Each new entry MUST include:
+**Most contributions follow this path:**
 
-- Tool Name
-- Category (must match controlled vocabulary)
-- Primary Use Case
-- Device Type
-- Programming Language
-- Short Description (one sentence)
-- Repository link
+1. Edit `data/catalogue.csv`
+2. Follow the schema in `docs/schema.md`
+3. Open a Pull Request
 
-Recommended (strongly encouraged):
+> **Do not edit the README directly.** It is curated by maintainers.
 
-- Tags (1–5)
-- Publication Link
-- Publication Status
-- Dependencies / Ecosystem
-- Notes
+---
+
+## Contribution Types
+
+You can contribute in two ways:
+
+### 1) Catalogue entries (default)
+
+Add or update tools in the CSV (source of truth).
+
+* File: `data/catalogue.csv`
+* Spec: `docs/schema.md`
+
+### 2) Scripts
+
+Add reusable scripts or small workflows to the repository.
+
+**Folder structure**
+
+```
+scripts/
+  your-script-name/
+    README.md
+    script.py (or other code files)
+```
+
+**Requirements**
+
+* One folder per script
+* Include a `README.md` with:
+
+  * purpose
+  * inputs / outputs
+  * dependencies
+  * how to run
+
+**Optional (recommended)**
+
+* If broadly useful, also add the script to `data/catalogue.csv` for discoverability.
+
+---
+
+## Adding a New Tool (CSV)
+
+Each row MUST include:
+
+* Tool Name
+* Category (STRICT)
+* Primary Use Case
+* Device Type (STRICT)
+* Programming Language (STANDARDIZED)
+* Short Description (**one sentence**)
+* Repository link
+
+Recommended fields:
+
+* Tags (1–5)
+* Publication Link
+* Publication Status (STRICT)
+* Dependencies / Ecosystem
+* Notes
+
+**Tags format**
+
+* lowercase, hyphen-separated
+* multiple values separated by `;`
+
+Example:
+
+```text
+event-detection; visualization; wearable
+```
 
 ---
 
 ## Rules
 
-- Each tool MUST have exactly **one Category**
-- Each tool MUST have exactly **one Primary Use Case**
-- Tags are OPTIONAL but recommended (use **1–5 tags**)
-- Tags MUST be **semicolon-separated** (e.g., `event-detection; visualization`)
-- Descriptions MUST be **one sentence only**
-- Controlled vocabularies MUST be followed exactly where marked as STRICT
+### Catalogue entries
+
+* Exactly **one Category** per tool
+* Exactly **one Primary Use Case**
+* Use **1–5 tags** (recommended)
+* Tags must be `;`-separated (e.g., `event-detection; visualization`)
+* Description must be **one sentence**
+* Follow STRICT vocabularies exactly
+
+### Scripts
+
+* Must live under `scripts/`
+* One folder per script
+* Must include a `README.md`
+* Should be reusable and clearly documented
+* May be added to the CSV if broadly useful
 
 ---
 
-## Example Entry
+## Example CSV Row
 
 ```csv
 Titta (Python),Experiment Design & Data Collection,experiment-control,experiment-control; psychopy; real-time,Both,Python,Toolbox for running experiments with Tobii eye trackers using PsychoPy,https://github.com/marcus-nystrom/Titta
@@ -63,15 +120,15 @@ Titta (Python),Experiment Design & Data Collection,experiment-control,experiment
 
 ---
 
-## Updating an Existing Tool
+## Updating Existing Entries
 
 You can:
 
-- Fix broken or outdated links
-- Improve descriptions
-- Add or refine tags
-- Add publication information
-- Improve notes
+* Fix broken/outdated links
+* Improve descriptions
+* Add or refine tags
+* Add publication info
+* Improve notes
 
 Please include a short explanation in your Pull Request.
 
@@ -79,10 +136,11 @@ Please include a short explanation in your Pull Request.
 
 ## What Not To Do
 
-- Do NOT create new categories
-- Do NOT invent new formats for fields
-- Do NOT add multi-sentence descriptions
-- Do NOT edit README tables directly
+* Do **not** create new categories
+* Do **not** change the schema structure
+* Do **not** add multi-sentence descriptions
+* Do **not** invent new formats for fields
+* Do **not** edit README tables directly
 
 ---
 
@@ -90,20 +148,17 @@ Please include a short explanation in your Pull Request.
 
 Maintainers will:
 
-- Check schema compliance
-- Validate links and basic accuracy
-- Decide if and how the tool is included in the README
+* Check schema compliance
+* Validate links and formatting
+* Decide if/how entries appear in the README
 
 ---
 
-## Questions
+## Need Help?
 
-If something is unclear or you want to propose improvements:
-
-- Open an Issue
-- Or start a discussion in your Pull Request
+* Open an Issue
+* Or ask in your Pull Request
 
 ---
 
-Thank you for helping improve this catalogue!
-
+Thanks for helping build a reliable research resource 🚀
