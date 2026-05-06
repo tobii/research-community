@@ -8,57 +8,33 @@ This repository is a structured catalogue of tools compatible with Tobii Pro res
 
 ## 🚀 Quick Start
 
-**Most contributions follow this path:**
+There are two contribution paths in this repository:
 
-1. Edit `data/catalogue.csv`
-2. Follow the schema in `docs/schema.md`
-3. Open a Pull Request
+| Contribution Type | Purpose                                                              | Main Location        |
+| ----------------- | -------------------------------------------------------------------- | -------------------- |
+| Catalogue entries | Add structured metadata about tools, packages, workflows, or scripts | `data/catalogue.csv` |
+| Scripts           | Contribute reusable code, utilities, or workflows                    | `scripts/`           |
 
 > **Do not edit the README directly.** It is curated by maintainers.
 
 ---
 
-## Contribution Types
+## 1. Contributing to the Catalogue (`catalogue.csv`)
 
-You can contribute in two ways:
+Use this path to:
 
-### 1) Catalogue entries (default)
+* Add a new tool or package
+* Add metadata about an existing script
+* Improve discoverability and filtering
+* Add publication or ecosystem information
 
-Add or update tools in the CSV (source of truth).
+### Steps
 
-* File: `data/catalogue.csv`
-* Spec: `docs/schema.md`
+1. Edit `data/catalogue.csv`
+2. Follow the schema in `docs/schema.md`
+3. Open a Pull Request
 
-### 2) Scripts
-
-Add reusable scripts or small workflows to the repository.
-
-**Folder structure**
-
-```
-scripts/
-  your-script-name/
-    README.md
-    script.py (or other code files)
-```
-
-**Requirements**
-
-* One folder per script
-* Include a `README.md` with:
-
-  * purpose
-  * inputs / outputs
-  * dependencies
-  * how to run
-
-**Optional (recommended)**
-
-* If broadly useful, also add the script to `data/catalogue.csv` for discoverability.
-
----
-
-## Adding a New Tool (CSV)
+### Required Fields
 
 Each row MUST include:
 
@@ -70,7 +46,7 @@ Each row MUST include:
 * Short Description (**one sentence**)
 * Repository link
 
-Recommended fields:
+### Recommended Fields
 
 * Tags (1–5)
 * Publication Link
@@ -78,7 +54,7 @@ Recommended fields:
 * Dependencies / Ecosystem
 * Notes
 
-**Tags format**
+### Tags Format
 
 * lowercase, hyphen-separated
 * multiple values separated by `;`
@@ -89,34 +65,67 @@ Example:
 event-detection; visualization; wearable
 ```
 
----
-
-## Rules
-
-### Catalogue entries
+### Rules for Catalogue Entries
 
 * Exactly **one Category** per tool
 * Exactly **one Primary Use Case**
 * Use **1–5 tags** (recommended)
-* Tags must be `;`-separated (e.g., `event-detection; visualization`)
+* Tags must be `;`-separated
 * Description must be **one sentence**
 * Follow STRICT vocabularies exactly
 
-### Scripts
-
-* Must live under `scripts/`
-* One folder per script
-* Must include a `README.md`
-* Should be reusable and clearly documented
-* May be added to the CSV if broadly useful
-
----
-
-## Example CSV Row
+### Example `catalogue.csv` Row
 
 ```csv
 Titta (Python),Experiment Design & Data Collection,experiment-control,experiment-control; psychopy; real-time,Both,Python,Toolbox for running experiments with Tobii eye trackers using PsychoPy,https://github.com/marcus-nystrom/Titta
 ```
+
+---
+
+## 2. Contributing Scripts
+
+Use this path to contribute:
+
+* Standalone scripts
+* Small workflows
+* Utilities
+* Reusable analysis code
+
+### Folder Structure
+
+```
+scripts/
+  your-script-name/
+    README.md
+    script.py (or other code files)
+```
+
+### Requirements
+
+* One folder per script
+* Include a `README.md` with:
+
+  * purpose
+  * inputs / outputs
+  * dependencies
+  * how to run
+
+### Rules for Scripts
+
+* Scripts MUST live under `scripts/`
+* Each script MUST have its own folder
+* Each script MUST include a `README.md`
+* Scripts SHOULD be reusable and clearly documented
+
+### Optional (Recommended)
+
+If a script is broadly useful, ALSO add it to `data/catalogue.csv`.
+
+This improves:
+
+* discoverability
+* filtering
+* future search and web interfaces
 
 ---
 
