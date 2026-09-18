@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "g3-imu-euler"
+version = "0.1.0"
+description = "Head orientation (Euler angles) from a raw Tobii Pro Glasses 3 recording"
+authors = []
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+numpy = ">=1.24"
+scipy = ">=1.10"
+ahrs = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
