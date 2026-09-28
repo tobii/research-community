@@ -21,6 +21,8 @@ This repository helps researchers quickly find tools and scripts across the eye-
 
 ---
 
+
+
 ## Device Tags
 
 - 🖥️ Screen-based
@@ -28,6 +30,8 @@ This repository helps researchers quickly find tools and scripts across the eye-
 - 🔀 Both
 
 ---
+
+
 
 ## Official Tobii SDKs & APIs
 
@@ -42,6 +46,8 @@ This repository helps researchers quickly find tools and scripts across the eye-
 
 ---
 
+
+
 ## Categories
 
 *Tools are listed alphabetically within each category.*
@@ -52,6 +58,8 @@ This repository helps researchers quickly find tools and scripts across the eye-
 - **Integration & Synchronization**
 - **Wearable & Egocentric Workflows**
 - **Utilities, Examples & SDK Resources**
+
+
 
 ## Experiment Design & Data Collection
 
@@ -76,6 +84,8 @@ This repository helps researchers quickly find tools and scripts across the eye-
 
 ---
 
+
+
 ## Data Access, Parsing & Management
 
 *Use this section if you need to access raw eye-tracking data, convert formats, or prepare datasets for analysis.*
@@ -88,6 +98,8 @@ This repository helps researchers quickly find tools and scripts across the eye-
 
 
 ---
+
+
 
 ## Analysis, Visualization & Quality
 
@@ -123,6 +135,8 @@ This repository helps researchers quickly find tools and scripts across the eye-
 
 ---
 
+
+
 ## Integration & Synchronization
 
 *Use this section if you need to synchronize eye-tracking data with other systems such as EEG, motion capture, or VR.*
@@ -140,22 +154,28 @@ This repository helps researchers quickly find tools and scripts across the eye-
 
 ---
 
+
+
 ## Wearable & Egocentric Workflows
 
-*Use this section if you are working with wearable eye trackers and need tools for scene video processing or egocentric analysis.*
+Use this section if you are working with wearable eye trackers and need tools for gaze mapping, scene video processing, data analysis, device control, or other egocentric research workflows.
 
 
-| Tool                                                                               | Use Case                  | Description                                                                                                     |
-| ---------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| [GazeMapper](https://github.com/dcnieho/gazeMapper)                                | 👓 Scene video processing | Workflow for mapping wearable gaze onto known real-world targets in egocentric recordings.                      |
-| [GlassesViewer](https://github.com/dcnieho/GlassesViewer)                          | 👓 Visualization          | MATLAB-based viewer for wearable recordings with synchronized scene video, gaze overlays, and inspection tools. |
-| [Mobile Gaze Mapping](https://github.com/jeffmacinnes/mobileGazeMapping)           | 👓 Scene video processing | Toolbox for mapping mobile eye-tracking gaze onto fixed stimuli using computer-vision homography methods.       |
-| [TobiiGlassesPyController](https://github.com/ddetommaso/TobiiGlassesPyController) | 👓 Device control         | Python controller for operating Tobii Pro Glasses devices and managing recordings from code.                    |
-| [TobiiGlassesPySuite](https://github.com/ddetommaso/TobiiGlassesPySuite)           | 👓 Device control         | Python suite for controlling Tobii Pro Glasses 2 devices and working with recordings.                           |
-| [TP3Py](https://github.com/SUNYOpt/TP3Py)                                          | 👓 Data streaming         | Real-time pipeline for streaming and processing Tobii Pro Glasses 3 gaze and head-motion data.                  |
+| Tool                                                                               | Use Case                  | Description                                                                                                                                 |
+| ---------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ArGaze](https://gitpub.recherche.enac.fr/argaze)                                  | 🔀 Analysis pipeline      | Python library for gaze analysis with AOI and scan-path metrics, visualization, and ArUco-based gaze mapping for head-mounted eye tracking. |
+| [g3-imu-euler](scripts/g3-imu-euler)                                               | 👓 Data parsing           | Script for computing head orientation and angular velocity from raw Tobii Pro Glasses 3 IMU data.                                           |
+| [GazeMapper](https://github.com/dcnieho/gazeMapper)                                | 👓 Scene video processing | Workflow for mapping wearable gaze onto known real-world targets in egocentric recordings.                                                  |
+| [GlassesViewer](https://github.com/dcnieho/GlassesViewer)                          | 👓 Visualization          | MATLAB-based viewer for wearable recordings with synchronized scene video, gaze overlays, and inspection tools.                             |
+| [Mobile Gaze Mapping](https://github.com/dcnieho/mobile-gaze-mapping)              | 👓 Scene video processing | Toolbox for mapping mobile eye-tracking gaze onto fixed stimuli using computer-vision homography methods.                                   |
+| [TobiiGlassesPyController](https://github.com/ddetommaso/TobiiGlassesPyController) | 👓 Device control         | Python controller for operating Tobii Pro Glasses devices and managing recordings from code.                                                |
+| [TobiiGlassesPySuite](https://github.com/ddetommaso/TobiiGlassesPySuite)           | 👓 Device control         | Python suite for controlling Tobii Pro Glasses 2 devices and working with recordings.                                                       |
+| [TP3Py](https://github.com/denizdmg/TP3Py)                                         | 👓 Data streaming         | Real-time pipeline for streaming and processing Tobii Pro Glasses 3 gaze and head-motion data.                                              |
 
 
 ---
+
+
 
 ## Utilities, Examples & SDK Resources
 
@@ -169,15 +189,19 @@ This repository helps researchers quickly find tools and scripts across the eye-
 
 ---
 
+
+
 ## Contributing
 
 Contributions are welcome.
 
-👉 Please **update `data/catalogue.csv` first** following the schema before proposing changes to the README.
+👉 Please **update** `data/catalogue.csv` **first** following the schema before proposing changes to the README.
 
 See `CONTRIBUTING.md` for full guidelines.
 
 ---
+
+
 
 ## Disclaimer
 
